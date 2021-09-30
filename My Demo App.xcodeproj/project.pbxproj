@@ -51,6 +51,11 @@
 		EA263DA02705C5D80049D915 /* TestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA263D9F2705C5D80049D915 /* TestBase.swift */; };
 		EA263DA22705CB110049D915 /* validLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA263DA12705CB110049D915 /* validLogin.swift */; };
 		EA263DC82705CFB40049D915 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA263DC72705CFB40049D915 /* PerformanceTests.swift */; };
+		EA263DD22705FB1D0049D915 /* CatalogScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA263DD12705FB1D0049D915 /* CatalogScreen.swift */; };
+		EA263DD42705FB720049D915 /* ProductDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA263DD32705FB720049D915 /* ProductDetailsScreen.swift */; };
+		EA263DD62705FBDE0049D915 /* MyCartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA263DD52705FBDE0049D915 /* MyCartScreen.swift */; };
+		EA263DD82705FC110049D915 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA263DD72705FC110049D915 /* LoginScreen.swift */; };
+		EA263DDA2705FC730049D915 /* catalogPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA263DD92705FC730049D915 /* catalogPurchase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +141,11 @@
 		EA263DC52705CFB30049D915 /* PerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA263DC72705CFB40049D915 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
 		EA263DC92705CFB40049D915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA263DD12705FB1D0049D915 /* CatalogScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogScreen.swift; sourceTree = "<group>"; };
+		EA263DD32705FB720049D915 /* ProductDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsScreen.swift; sourceTree = "<group>"; };
+		EA263DD52705FBDE0049D915 /* MyCartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartScreen.swift; sourceTree = "<group>"; };
+		EA263DD72705FC110049D915 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		EA263DD92705FC730049D915 /* catalogPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catalogPurchase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,10 +311,12 @@
 		EA263D932705C5300049D915 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
+				EA263DCF2705FAC20049D915 /* Screens */,
 				EA263D9C2705C55D0049D915 /* Base */,
 				EA263D962705C5300049D915 /* Info.plist */,
 				EA263DA12705CB110049D915 /* validLogin.swift */,
 				EA263D9D2705C5950049D915 /* invalidLogin.swift */,
+				EA263DD92705FC730049D915 /* catalogPurchase.swift */,
 			);
 			path = UITests;
 			sourceTree = "<group>";
@@ -324,6 +336,17 @@
 				EA263DC92705CFB40049D915 /* Info.plist */,
 			);
 			path = PerformanceTests;
+			sourceTree = "<group>";
+		};
+		EA263DCF2705FAC20049D915 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EA263DD12705FB1D0049D915 /* CatalogScreen.swift */,
+				EA263DD32705FB720049D915 /* ProductDetailsScreen.swift */,
+				EA263DD52705FBDE0049D915 /* MyCartScreen.swift */,
+				EA263DD72705FC110049D915 /* LoginScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -544,9 +567,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA263DD42705FB720049D915 /* ProductDetailsScreen.swift in Sources */,
 				EA263DA22705CB110049D915 /* validLogin.swift in Sources */,
+				EA263DD22705FB1D0049D915 /* CatalogScreen.swift in Sources */,
 				EA263DA02705C5D80049D915 /* TestBase.swift in Sources */,
+				EA263DD82705FC110049D915 /* LoginScreen.swift in Sources */,
 				EA263D9E2705C5950049D915 /* invalidLogin.swift in Sources */,
+				EA263DDA2705FC730049D915 /* catalogPurchase.swift in Sources */,
+				EA263DD62705FBDE0049D915 /* MyCartScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
