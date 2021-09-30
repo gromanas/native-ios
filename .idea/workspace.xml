@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f66365-0032-464c-bc20-e4114713727c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UITests/Screens/CatalogScreen.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UITests/Screens/LoginScreen.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UITests/Screens/MyCartScreen.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UITests/Screens/ProductDetailsScreen.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UITests/catalogPurchase.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My Demo App.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/My Demo App.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My Demo App.xcworkspace/xcuserdata/giorgosromanas.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/My Demo App.xcworkspace/xcuserdata/giorgosromanas.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UITests/catalogPurchase.swift" beforeDir="false" afterPath="$PROJECT_DIR$/UITests/catalogPurchase.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633001048460</updated>
-      <workItem from="1633001050184" duration="2120000" />
+      <workItem from="1633001050184" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1633001476144</created>
@@ -69,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633004715496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add POM and a new test case">
+      <created>1633012527913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633012527913</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,21 +77,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add POM and a new test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="add POM and a new test case" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="94" key="CommitChangelistDialog2" timestamp="1633004713561">
-      <screen x="0" y="23" width="1920" height="991" />
+    <state x="567" y="94" key="CommitChangelistDialog2" timestamp="1633012525601">
+      <screen x="0" y="23" width="1920" height="990" />
     </state>
+    <state x="567" y="94" key="CommitChangelistDialog2/-1440.23.1440.877/0.23.1920.990@0.23.1920.990" timestamp="1633012525601" />
     <state x="567" y="94" key="CommitChangelistDialog2/-1440.23.1440.877/0.23.1920.991@0.23.1920.991" timestamp="1633004713561" />
     <state x="567" y="94" key="CommitChangelistDialog2/-1440.23.1440.877/0.23.1920.993@0.23.1920.993" timestamp="1633001609279" />
     <state x="240" y="111" key="DiffContextDialog" timestamp="1633004708393">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state x="240" y="111" key="DiffContextDialog/-1440.23.1440.877/0.23.1920.991@0.23.1920.991" timestamp="1633004708393" />
-    <state x="560" y="245" key="Vcs.Push.Dialog.v2" timestamp="1633004716800">
-      <screen x="0" y="23" width="1920" height="991" />
+    <state x="560" y="245" key="Vcs.Push.Dialog.v2" timestamp="1633012530620">
+      <screen x="0" y="23" width="1920" height="990" />
     </state>
+    <state x="560" y="245" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/0.23.1920.990@0.23.1920.990" timestamp="1633012530620" />
     <state x="560" y="245" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/0.23.1920.991@0.23.1920.991" timestamp="1633004716800" />
     <state x="560" y="245" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/0.23.1920.993@0.23.1920.993" timestamp="1633001612773" />
     <state x="667" y="273" width="586" height="490" key="find.popup" timestamp="1633004688943">
