@@ -717,7 +717,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "My\\ Demo\\ App/iCimulator.plist";
 				DEVELOPMENT_TEAM = G5P3FNGJ6N;
 				INFOPLIST_FILE = "My Demo App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -740,7 +739,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "My\\ Demo\\ App/iCimulator.plist";
 				DEVELOPMENT_TEAM = G5P3FNGJ6N;
 				INFOPLIST_FILE = "My Demo App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
